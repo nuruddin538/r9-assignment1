@@ -103,3 +103,102 @@ nav button {
     text-align: center;
     text-decoration: none;
 }
+main .developer-section {
+    width: 1140px;
+    height: 1300px;
+    margin: 38px auto;
+    border-radius: 6px;
+    background: rgba(13, 19, 33, 0.02);
+}
+main .developer-section h2 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    text-align: center;
+    padding: 38px 0;
+}
+main .developer-section p {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    opacity: .7;
+}
+main .developer-cards {
+    width: 946px;
+    height: 336px;
+    margin: 24px auto;
+    padding: 48px;
+    background-color: #fff;
+}
+main .developer-card-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    gap: 10;
+}
+main .middle-card {
+    flex-direction: row-reverse;
+}
+main .developer-card-content h3 {
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: left;
+}
+main .developer-card-content p {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    opacity: 0.7;
+    margin: 16px 0;
+}
+main .developer-card-content img {
+    max-width: 100%;
+    height: auto;
+}
+main .developer-card-content button {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 18px;
+    text-align: center;
+    padding: 8px 14px;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+}
+main .end-card {
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+}
+main .end-card h4 {
+    margin-left: 40px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 24px;
+    text-align: center;
+}
+main .developer-card-content span {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    align-items: center;
+    opacity: .7;
+}
