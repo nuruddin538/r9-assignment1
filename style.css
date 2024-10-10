@@ -177,21 +177,21 @@ main .developer-card-content button {
     border: 1px solid rgb(13, 19, 33);
     opacity: 0.7;
 }
-main .end-card {
-    display: flex;
-    align-items: center;
-    margin-bottom: 24px;
-}
-main .end-card h4 {
-    margin-left: 40px;
+
+main .inspiration-text h4 {
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 32px;
     font-weight: 800;
     line-height: 24px;
     text-align: center;
+    margin-top: -90px;
+    margin-bottom: 20px;
 }
-main .developer-card-content span {
+main .inspiration-section {
+    padding: 22px 0;
+}
+main .inspiration-text p {
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 12px;
@@ -199,6 +199,14 @@ main .developer-card-content span {
     line-height: 26px;
     letter-spacing: 0%;
     text-align: center;
-    align-items: center;
+    margin-bottom: 16px;
     opacity: .7;
+}
+main .inspiration-text {
+    text-align: center;
+}
+main .inspiration-text iframe {
+    width: 1076px;
+    height: 550px;
+    max-width: 100%;
 }
