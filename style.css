@@ -17,7 +17,6 @@ main {
     flex: 1;
 }
 footer {
-    padding: 20px;
     text-align: center;
     width: 100%;
 }
@@ -420,6 +419,33 @@ footer .submit-btn button {
     font-weight: 600;
     line-height: 23px;
     text-align: center;
+}
+footer .main-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px auto;
+    border-radius: 16px;
+    padding: 18px 100px;
+    margin-top: 28px;
+    background: rgba(13, 19, 33, 0.03);
+}
+footer .main-footer ul {
+    display: flex;
+    align-items: center;
+}
+footer .main-footer ul li {
+    list-style-type: none;
+    padding: 0px 8px;
+}
+footer .main-footer span {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    text-align: center;
+    opacity: .7;
 }
 
 
