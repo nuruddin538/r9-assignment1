@@ -8,6 +8,19 @@
     font-optical-sizing: auto;
     font-style: normal;
 }
+html, body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+main {
+    flex: 1;
+}
+footer {
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+}
 header nav {
     width: 1224px;
     height: auto;
@@ -103,10 +116,13 @@ nav button {
     text-align: center;
     text-decoration: none;
 }
+main .main-section {
+    width: 1140px;
+    height: auto;
+    margin: 38px auto;
+}
 main .developer-section {
     width: 1140px;
-    height: 1300px;
-    margin: 38px auto;
     border-radius: 6px;
     background: rgba(13, 19, 33, 0.02);
 }
@@ -360,4 +376,50 @@ main .next-target-box-text a {
     text-align: left;
     text-decoration-line: underline;
 }
+footer .support-section {
+    width: 1140px;
+    height: 313px;
+    margin: 0px auto;
+    padding: 64px 48px;
+    border-radius: 16px;
+    background: url('assets/handshake.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+footer .support-section h2 {
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: center;
+}
+footer .support-section p {
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 12px;
+    margin: 14px 0px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+}
+footer .submit-btn input {
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    padding: 16px 18px 16px 18px;
+}
+footer .submit-btn button {
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    padding: 12px 14px 12px 14px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 23px;
+    text-align: center;
+}
+
 
